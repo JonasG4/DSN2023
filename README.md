@@ -20,7 +20,7 @@ En el año tijiri tres, una colonia de terricolas que se encuentran en el planet
 
 __Estructura del ejercicio__
 ```javascript
-function cantidadSaltos(idPlanetaDestino) {
+function calcularNumeroSaltos(idPlanetaDestino) {
   const idTierra = 1;
   const minIdPlaneta = 10000;
   let contadorSaltos = 0;
@@ -45,8 +45,8 @@ function cantidadSaltos(idPlanetaDestino) {
 ```
 __Resultado__
 ```javascript
-console.log(cantidadSaltos(10000)); // Output => Error
-console.log(cantidadSaltos(21050)); // Output => 193
-console.log(cantidadSaltos(15555)); // Output => 84
-console.log(cantidadSaltos(12500)); // Output => 125
+console.log(calcularNumeroSaltos(10000)); // Output => Error
+console.log(calcularNumeroSaltos(21050)); // Output => 193
+console.log(calcularNumeroSaltos(15555)); // Output => 84
+console.log(calcularNumeroSaltos(12500)); // Output => 125
 ```
