@@ -13,7 +13,7 @@ en naves espaciales con energia infinita.
     al planeta 1. 
 */
 
-function cantidadSaltos(idPlanetaDestino) {
+function calcularNumeroSaltos(idPlanetaDestino) {
   const idTierra = 1;
   const minIdPlaneta = 10000;
   let contadorSaltos = 0;
@@ -37,7 +37,7 @@ function cantidadSaltos(idPlanetaDestino) {
   return contadorSaltos;
 }
 
-console.log(cantidadSaltos(10000)); // Output => Error
-console.log(cantidadSaltos(21050)); // Output => 193
-console.log(cantidadSaltos(15555)); // Output => 84
-console.log(cantidadSaltos(12500)); // Output => 125
+console.log(calcularNumeroSaltos(10000)); // Output => Error
+console.log(calcularNumeroSaltos(21050)); // Output => 193
+console.log(calcularNumeroSaltos(15555)); // Output => 84
+console.log(calcularNumeroSaltos(12500)); // Output => 125
