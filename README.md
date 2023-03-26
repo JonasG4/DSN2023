@@ -2,12 +2,12 @@
 ## Modulo 2
 Entrar a la carpeta del módulo 2
 ```shell
-cd '.\modulo 2\'
+cd '.\modulo_2\'
 ```
 ### Semana 1
 Entrar a la carpeta de la semana 2 y ejecutar el script llamado [naveNamek](https://github.com/JonasG4/DSN2023/tree/master/modulo%202/semana%201)
 ```shell
-cd '.\semana 1\'
+cd '.\semana_1\'
 node naveNamek.js
 ```
 __Enunciado del ejercicio__
